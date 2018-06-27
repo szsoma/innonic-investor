@@ -1,0 +1,237 @@
+/* Raleway Google font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,900');
+
+html{
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #fff;
+    text-align: center;
+}
+
+/*  Banner */
+
+.banner {
+    width: 100%;
+    background: url('../img/banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 5rem;
+}
+
+.inv-logo {
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.investor-h1 {
+    font-size: 5rem;
+    padding: 3rem auto;
+    font-weight: 700;
+}
+.investor-h1 span {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.investor-p {
+    color: #dff4fa;
+    font-size: 1.8rem;
+    margin: 2rem auto;
+}
+
+.arrow {
+    width: 6%;
+    margin: 4rem;
+    opacity: .7;
+}
+
+/* Head */
+
+.investor-head {
+    margin: 4rem auto;
+}
+
+.investor-head-p {
+    color: #a2a2a2;
+    font-weight: 1.4rem;
+    padding: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.cta-1,
+.cta-1:visited {
+    color: #fff;
+    padding: 1.8rem 3rem;
+    border-radius: 4px;
+    background-image: linear-gradient(50deg, #077891, #0c99a9);
+    box-shadow: 0px 10px 20px -8px rgba(9, 88, 109, 0.6);
+    transition: all 300ms ease-in-out;
+}
+
+.cta-1:hover,
+.cta:active {
+    background-image: linear-gradient(50deg, #0c99a9, #077891);
+    box-shadow: 0px 7px 20px 0 rgba(9, 88, 109, 0.4);
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+/* Cards */
+
+.box-ea,
+.box-c {
+    margin: 6rem auto;
+    text-align: left;
+}
+
+.academy-section-2-box p {
+    padding-top: .5rem;
+}
+
+.investor-news-input input{
+    color: #333;
+    min-height: 32px;
+    width: 80%;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.investor-news-button input,
+.investor-news-button input:visited {
+    margin: 1rem 0;
+    color: #077891;
+    font-weight: 900;
+    background: -webkit-gradient(linear,left top,right top,from(#d7d7d7),to(white));
+    background: linear-gradient(to right,#d7d7d7,#fff);
+    vertical-align: middle;
+    -webkit-box-shadow: 0 3px 35px 0 rgba(0,0,0,.25);
+    box-shadow: 0 3px 35px 0 rgba(0,0,0,.25);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    padding: 1.2rem 2rem .8rem 2rem;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+
+.investor-news-button input:hover,
+.investor-news-button input:active {
+    background: -webkit-gradient(linear,left top,right top,from(#a5a5a5),to(#d7d7d7));
+    background: linear-gradient(to right,#a5a5a5,#d7d7d7);
+}
+
+.button-c {
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 300px;
+}
+
+@media screen and ( min-width: 576px ){
+    .inv-logo {
+        width: 20%;
+    }
+}
+
+@media screen and ( min-width: 768px ){
+    html{
+        font-size: 8px;
+    }
+
+    .inv-logo {
+        width: 20%;
+    }
+
+}
+
+@media screen and ( min-width: 992px ){
+
+    .inv-logo {
+        width: 18%;
+    }
+
+    html{
+        font-size: 9px;
+    }
+
+    .academy-section-2-box p {
+        padding: .6rem auto;
+    }
+
+    .card-bg {
+        background: #eeeeee;
+        height: 300px;
+        z-index: -1;
+        margin-top: -350px;
+    }
+}
+@media screen and ( min-width: 1200px ) {
+
+    html {
+        font-size: 10px;
+    }
+
+    /* Banner-desktop */
+    .inv-logo {
+        width: 18%;
+    }
+    
+    .investor-h1 {
+        font-size: 7rem;
+    }
+    .investor-h1 span {
+        font-size: 5.5rem;
+    }
+    
+    .arrow {
+        width: 2%;
+    }
+
+    .academy-section-2-box p {
+        padding: .6rem auto;
+    }
+
+    .card-bg {
+        background: #eeeeee;
+        height: 300px;
+        z-index: -1;
+        margin-top: -350px;
+    }
+}
