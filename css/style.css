@@ -1,7 +1,7 @@
 /* Raleway Google font */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,900');
 
-html{
+html {
     font-size: 7px;
 }
 
@@ -11,7 +11,6 @@ body {
     font-size: 1.6rem;
     line-height: 1.7;
     color: #fff;
-    text-align: center;
 }
 
 /*  Banner */
@@ -21,6 +20,7 @@ body {
     background: url('../img/banner-bg.jpg') no-repeat center center;
     background-size: cover;
     margin-bottom: 5rem;
+
 }
 
 .inv-logo {
@@ -59,8 +59,8 @@ body {
 .investor-head-p {
     color: #a2a2a2;
     font-weight: 1.4rem;
-    padding: 0 auto;
     margin-bottom: 6rem;
+
 }
 
 .cta-1,
@@ -136,36 +136,6 @@ body {
     margin-top: 4rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-    height: 300px;
-}
-
 @media screen and ( min-width: 576px ){
     .inv-logo {
         width: 20%;
@@ -234,6 +204,5 @@ body {
         background: #eeeeee;
         height: 300px;
         z-index: -1;
-        margin-top: -350px;
     }
 }
